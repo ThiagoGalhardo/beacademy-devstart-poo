@@ -3,6 +3,7 @@
 include 'Aluno.php';
 include 'Professor.php';
 include 'Curso.php';
+include 'Disciplina.php';
 
 
 $a1 = new Aluno(); 
