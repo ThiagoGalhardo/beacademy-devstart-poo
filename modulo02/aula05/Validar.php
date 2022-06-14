@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-class Validar
+abstract class Validar
 {
   // método estático
   public static function validarCpf(string $cpf): void
