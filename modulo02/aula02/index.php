@@ -4,8 +4,6 @@ ini_set('display_errors', 1);
 
 include 'Produto.php';
 
-$p2 = new Produto();
-
 $p1 = new Produto();
 $p1-> setNome('Tênis para corrida');
 $p1-> setValor(499);
