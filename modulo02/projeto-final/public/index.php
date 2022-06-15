@@ -5,6 +5,7 @@ ini_set('display_errors', 1);
 include '../vendor/autoload.php';
 
 use App\Controller\IndexController;
+use App\Controller\ProductController;
 
 
 $c= new IndexController();
@@ -12,5 +13,7 @@ $c= new IndexController();
 
 $c->loginAction();
 
-
-echo "<h1>Hello World</h1>";
+$product = new ProductController();
+$product->listAction();
+$product->addAction();
+$product->editAction();
