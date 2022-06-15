@@ -2,10 +2,17 @@
 
 declare(strict_types=1);
 
+namespace App\Controller;
+
 class IndexController
 {
   public function indexAction(): void
   {
-    echo 'Olá mundo, estou dentro de uma action, dentro do controller';
+    include dirname(__DIR__) . '/View/index/index.php';
+  }
+
+  public function loginAction(): void
+  {
+    include dirname(__DIR__) . '/View/index/login.php';
   }
 }
