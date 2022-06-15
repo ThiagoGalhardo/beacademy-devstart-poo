@@ -6,6 +6,15 @@ include '../vendor/autoload.php';
 
 use App\Controller\IndexController;
 use App\Controller\ProductController;
+use App\Controller\ErrorController;
+
+$url = explode('?', $_SERVER['REQUEST_URI'])[0];
+
+echo $url;
+
+
+
+
 
 
 $c= new IndexController();
