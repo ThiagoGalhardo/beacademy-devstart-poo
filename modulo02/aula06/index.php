@@ -15,12 +15,6 @@ include 'vendor/autoload.php';
 use Dompdf\Dompdf;
 
 
-
-
-
-// reference the Dompdf namespace
-
-
 // instantiate and use the dompdf class
 $dompdf = new Dompdf();
 $dompdf->loadHtml('hello world');
