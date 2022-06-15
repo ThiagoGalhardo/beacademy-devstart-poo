@@ -9,7 +9,7 @@ use App\Controller\ProductController;
 
 
 $c= new IndexController();
-// $c->indexAction();
+$c->indexAction();
 
 $c->loginAction();
 
