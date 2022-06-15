@@ -2,7 +2,7 @@
    <img src="https://www.beacademy.com.br/wp-content/uploads/2019/11/Logo-Topo.png" /> 
 </p>
 
-<h1 align="center">Exercícios de Introdução ao PHP</h1>
+<h1 align="center">Exercícios PHP Orientado à Objetos</h1>
 <p align="center">
  <a href="#o-desafio">Desafio</a> •
  <a href="#tecnologias">Tecnologias</a> •
